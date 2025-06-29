@@ -5,3 +5,5 @@
 /.vs/HeadFirstDesignPatterns11
 /x64/Debug
 /Adapter/Ducks/x64/Debug
+
+Bridge/Remotes/x64/
