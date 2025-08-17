@@ -6,7 +6,7 @@ This project is a reimplementation of [Sliver 1.6](https://sourceforge.net/proje
 
 - [x] Adapter
 - [x] Bridge
-- [ ] Builder
+- [x] Builder
 - [ ] Chain of Responsibility
 - [ ] Command
 - [ ] Composite
