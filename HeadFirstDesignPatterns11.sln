@@ -21,6 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Planner", "Planner", "{4C39
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Planner", "Builder\Planner\Planner.vcxproj", "{67EA60DE-C0B3-4CFC-BB41-8A69E15AEAF1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{9FA3D6BD-1EC1-3BA5-80CB-CE02773A58D5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{4D84D9F6-4A24-4B3E-9987-198D5F916E3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GumballEMailHandler", "GumballEMailHandler", "{15E7D26B-E9C7-44D7-8052-C3AAA72D73D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GumballEMailHandler", "ChainOfResponsibility\GumballEMailHandler\GumballEMailHandler.vcxproj", "{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -53,6 +64,14 @@ Global
 		{67EA60DE-C0B3-4CFC-BB41-8A69E15AEAF1}.Release|x64.Build.0 = Release|x64
 		{67EA60DE-C0B3-4CFC-BB41-8A69E15AEAF1}.Release|x86.ActiveCfg = Release|Win32
 		{67EA60DE-C0B3-4CFC-BB41-8A69E15AEAF1}.Release|x86.Build.0 = Release|Win32
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Debug|x64.ActiveCfg = Debug|x64
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Debug|x64.Build.0 = Debug|x64
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Debug|x86.Build.0 = Debug|Win32
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Release|x64.ActiveCfg = Release|x64
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Release|x64.Build.0 = Release|x64
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Release|x86.ActiveCfg = Release|Win32
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +83,8 @@ Global
 		{CC5CBD0A-40C6-42E5-ADE9-685FF8EAE914} = {252E51FB-DC6C-42D6-9343-988DC29C72A7}
 		{4C39170F-9FF9-4FA0-A1D8-87026EFB161D} = {83E61AD8-B554-4A14-9E9D-7880BCFA7DA7}
 		{67EA60DE-C0B3-4CFC-BB41-8A69E15AEAF1} = {4C39170F-9FF9-4FA0-A1D8-87026EFB161D}
+		{15E7D26B-E9C7-44D7-8052-C3AAA72D73D0} = {4D84D9F6-4A24-4B3E-9987-198D5F916E3E}
+		{F8F3FA3A-1C4A-4876-8062-97A7F727E89A} = {15E7D26B-E9C7-44D7-8052-C3AAA72D73D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {668FAC01-C3BC-4865-A94F-D36E731D899F}
