@@ -11,3 +11,9 @@ Bridge/Remotes/x64/
 Builder/Planner/x64/
 
 ChainOfResponsibility/GumballEMailHandler/x64/
+
+Command/Remote/x64/
+
+Command/SimpleRemote/x64/
+
+Command/Undo/x64/
