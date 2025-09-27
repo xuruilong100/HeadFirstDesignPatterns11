@@ -13,7 +13,7 @@ This project is a reimplementation of [Sliver 1.6](https://sourceforge.net/proje
 - [ ] Compound
 - [x] Decorator
 - [x] Facade
-- [ ] Factory
+- [x] Factory
 - [ ] Flyweight
 - [ ] Interpreter
 - [ ] Iterator
