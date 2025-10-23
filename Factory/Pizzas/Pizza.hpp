@@ -24,27 +24,27 @@ class Pizza {
     std::string getName() const { return _name; }
 
     virtual void prepare() const {
-        std::cout << "Preparing " << _name.c_str() << std::endl;
+        std::cout << "Preparing " << _name << std::endl;
     }
 
     virtual void bake() const {
-        std::cout << "Baking " << _name.c_str() << std::endl;
+        std::cout << "Baking " << _name << std::endl;
     }
 
     virtual void cut() const {
-        std::cout << "Cutting " << _name.c_str() << std::endl;
+        std::cout << "Cutting " << _name << std::endl;
     }
 
     virtual void box() const {
-        std::cout << "Boxing " << _name.c_str() << std::endl;
+        std::cout << "Boxing " << _name << std::endl;
     }
 
     std::string toString() const {
         // code to display pizza name and ingredients
         std::stringstream value;
-        value << "---- " << _name.c_str() << " ----" << std::endl;
-        value << _dough.c_str() << std::endl;
-        value << _sauce.c_str() << std::endl;
+        value << "---- " << _name << " ----" << std::endl;
+        value << _dough << std::endl;
+        value << _sauce << std::endl;
         for (const auto& top : _toppings) {
             value << top << std::endl;
         }
