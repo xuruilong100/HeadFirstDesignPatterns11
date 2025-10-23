@@ -11,7 +11,7 @@ class Menu : public MenuComponent {
    private:
     std::string _name;
     std::string _description;
-    mutable std::vector<std::shared_ptr<MenuComponent>> _menuComponents;
+    std::vector<std::shared_ptr<MenuComponent>> _menuComponents;
 
    public:
     Menu(std::string_view name, std::string_view description)

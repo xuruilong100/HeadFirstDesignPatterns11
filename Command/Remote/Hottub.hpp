@@ -5,15 +5,15 @@
 namespace HeadFirstDesignPatterns::Command::Remote {
 class Hottub {
    private:
-    mutable bool _on;
-    mutable int _temperature;
+    bool _on = false;
+    int _temperature = 0;
 
    public:
-    Hottub() : _on(false), _temperature(0) {}
+    Hottub() = default;
 
-    void on() const { _on = true; }
+    void on() { _on = true; }
 
-    void off() const { _on = false; }
+    void off() { _on = false; }
 
     void bubblesOn() const {
         if (_on) {
@@ -41,12 +41,12 @@ class Hottub {
 
     void setTemperature(int temperature) { _temperature = temperature; }
 
-    void heat() const {
+    void heat() {
         _temperature = 105;
         std::cout << "Hottub is heating to a steaming 105 degrees" << std::endl;
     }
 
-    void cool() const {
+    void cool() {
         _temperature = 98;
         std::cout << "Hottub is cooling to 98 degrees" << std::endl;
     }

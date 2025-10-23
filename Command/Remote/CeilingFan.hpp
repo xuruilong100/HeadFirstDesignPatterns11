@@ -6,7 +6,7 @@
 namespace HeadFirstDesignPatterns::Command::Remote {
 class CeilingFan {
    private:
-    mutable int _level = LOW;
+    int _level = LOW;
     std::string _location;
 
    public:
@@ -16,22 +16,22 @@ class CeilingFan {
 
     explicit CeilingFan(std::string_view location) : _location(location) {}
 
-    void high() const {
+    void high() {
         _level = HIGH;
         std::cout << _location << " ceiling fan is on high" << std::endl;
     }
 
-    void medium() const {
+    void medium() {
         _level = MEDIUM;
         std::cout << _location << " ceiling fan is on medium" << std::endl;
     }
 
-    void low() const {
+    void low() {
         _level = LOW;
         std::cout << _location << " ceiling fan is on low" << std::endl;
     }
 
-    void off() const {
+    void off() {
         _level = 0;
         std::cout << _location << " ceiling fan is off" << std::endl;
     }

@@ -19,7 +19,7 @@ class RemoteControlWithUndo {
     std::array<std::shared_ptr<Command>, SLOTS> _onCommands;
     std::array<std::shared_ptr<Command>, SLOTS> _offCommands;
     std::shared_ptr<Command> _noCommand = std::make_shared<NoCommand>();
-    mutable std::shared_ptr<Command> _undoCommand;
+    std::shared_ptr<Command> _undoCommand;
 
    public:
     RemoteControlWithUndo() {
@@ -39,12 +39,12 @@ class RemoteControlWithUndo {
         _offCommands[slot] = offCommand;
     }
 
-    void onButtonWasPushed(int slot) const {
+    void onButtonWasPushed(int slot) {
         _onCommands[slot]->execute();
         _undoCommand = _onCommands[slot];
     }
 
-    void offButtonWasPushed(int slot) const {
+    void offButtonWasPushed(int slot) {
         _offCommands[slot]->execute();
         _undoCommand = _offCommands[slot];
     }

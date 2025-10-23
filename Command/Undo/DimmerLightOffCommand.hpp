@@ -8,7 +8,7 @@ namespace HeadFirstDesignPatterns::Command::Undo {
 class DimmerLightOffCommand : public Command {
    private:
     std::shared_ptr<Light> _light;
-    mutable int _prevLevel;
+    int _prevLevel;
 
    public:
     explicit DimmerLightOffCommand(std::shared_ptr<Light> light)
@@ -16,11 +16,11 @@ class DimmerLightOffCommand : public Command {
         _prevLevel = _light->getLevel();
     }
 
-    void execute() const override {
+    void execute() override {
         _prevLevel = _light->getLevel();
         _light->off();
     }
 
-    void undo() const override { _light->dim(_prevLevel); }
+    void undo() override { _light->dim(_prevLevel); }
 };
 }  // namespace HeadFirstDesignPatterns::Command::Undo

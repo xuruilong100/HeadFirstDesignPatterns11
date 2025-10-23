@@ -6,7 +6,7 @@ class Command {
     Command() = default;
     virtual ~Command() = default;
 
-    virtual void execute() const = 0;
-    virtual void undo() const = 0;
+    virtual void execute() = 0;
+    virtual void undo() = 0;
 };
 }  // namespace HeadFirstDesignPatterns::Command::Undo

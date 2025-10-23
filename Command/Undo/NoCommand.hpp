@@ -7,8 +7,8 @@ class NoCommand : public Command {
    public:
     NoCommand() = default;
 
-    void execute() const override {};
+    void execute() override {};
 
-    void undo() const override {};
+    void undo() override {};
 };
 }  // namespace HeadFirstDesignPatterns::Command::Undo

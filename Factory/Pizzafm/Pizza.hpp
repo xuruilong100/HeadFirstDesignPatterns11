@@ -11,7 +11,7 @@ class Pizza {
     std::string _name;
     std::string _dough;
     std::string _sauce;
-    mutable std::list<std::string> _toppings;
+    std::list<std::string> _toppings;
 
    protected:
     Pizza() = default;

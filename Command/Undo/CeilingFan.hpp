@@ -6,7 +6,7 @@
 namespace HeadFirstDesignPatterns::Command::Undo {
 class CeilingFan {
    private:
-    mutable int _speed = OFF;
+    int _speed = OFF;
     std::string _location;
 
    public:
@@ -17,22 +17,22 @@ class CeilingFan {
 
     explicit CeilingFan(std::string_view location) : _location(location) {}
 
-    void high() const {
+    void high() {
         _speed = HIGH;
         std::cout << _location << " ceiling fan is on high" << std::endl;
     }
 
-    void medium() const {
+    void medium() {
         _speed = MEDIUM;
         std::cout << _location << " ceiling fan is on medium" << std::endl;
     }
 
-    void low() const {
+    void low() {
         _speed = LOW;
         std::cout << _location << " ceiling fan is on low" << std::endl;
     }
 
-    void off() const {
+    void off() {
         _speed = OFF;
         std::cout << _location << " ceiling fan is off" << std::endl;
     }

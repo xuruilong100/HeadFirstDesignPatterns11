@@ -13,8 +13,8 @@ class LightOnCommand : public Command {
     explicit LightOnCommand(std::shared_ptr<Light> light)
         : _light(std::move(light)) {}
 
-    void execute() const override { _light->on(); }
+    void execute() override { _light->on(); }
 
-    void undo() const override { _light->off(); }
+    void undo() override { _light->off(); }
 };
 }  // namespace HeadFirstDesignPatterns::Command::Undo

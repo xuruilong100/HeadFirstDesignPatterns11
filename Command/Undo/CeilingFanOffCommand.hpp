@@ -8,7 +8,7 @@ namespace HeadFirstDesignPatterns::Command::Undo {
 class CeilingFanOffCommand : public Command {
    private:
     std::shared_ptr<CeilingFan> _ceilingFan;
-    mutable int _prevSpeed;
+    int _prevSpeed;
 
    public:
     explicit CeilingFanOffCommand(std::shared_ptr<CeilingFan> ceilingFan)
@@ -16,12 +16,12 @@ class CeilingFanOffCommand : public Command {
         _prevSpeed = _ceilingFan->getSpeed();
     }
 
-    void execute() const override {
+    void execute() override {
         _prevSpeed = _ceilingFan->getSpeed();
         _ceilingFan->off();
     }
 
-    void undo() const override {
+    void undo() override {
         if (_prevSpeed == CeilingFan::HIGH) {
             _ceilingFan->high();
         } else if (_prevSpeed == CeilingFan::MEDIUM) {
