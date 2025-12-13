@@ -1,0 +1,3 @@
+right;
+while (daylight) fly;
+quack;

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MiniDuckSimulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WhileCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoyDuck.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DuckFactory.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeQuack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehavior.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNoWay.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyRocketPowered.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDuck.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MuteQuack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Quack.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RedHeadDuck.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RightCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberDuck.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Squeak.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SwimCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NullCommand.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
