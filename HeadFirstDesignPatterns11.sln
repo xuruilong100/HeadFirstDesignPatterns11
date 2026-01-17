@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11408.102 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -89,6 +89,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiniDuckSimulator", "MiniDuckSimulator", "{AD900976-E960-4E0C-AF08-C40BD7AE8F8E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniDuckSimulator", "Interpreter\MiniDuckSimulator\MiniDuckSimulator.vcxproj", "{1ED8B5E6-22FA-479A-8395-BB1D3E2C31FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{BE4857EE-32BF-4CBE-B01E-0C849093DE23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoHouse", "AutoHouse", "{8A543899-A867-4261-A998-505340D63D56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AutoHouse", "Mediator\AutoHouse\AutoHouse.vcxproj", "{02A681A2-9F2A-4579-B7AD-8093B16330D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -218,6 +224,14 @@ Global
 		{1ED8B5E6-22FA-479A-8395-BB1D3E2C31FA}.Release|x64.Build.0 = Release|x64
 		{1ED8B5E6-22FA-479A-8395-BB1D3E2C31FA}.Release|x86.ActiveCfg = Release|Win32
 		{1ED8B5E6-22FA-479A-8395-BB1D3E2C31FA}.Release|x86.Build.0 = Release|Win32
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Debug|x64.ActiveCfg = Debug|x64
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Debug|x64.Build.0 = Debug|x64
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Debug|x86.ActiveCfg = Debug|Win32
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Debug|x86.Build.0 = Debug|Win32
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Release|x64.ActiveCfg = Release|x64
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Release|x64.Build.0 = Release|x64
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Release|x86.ActiveCfg = Release|Win32
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +267,8 @@ Global
 		{249A1093-CC22-4254-9F80-76766933EC22} = {79950573-19B4-428C-904F-370559A2823B}
 		{AD900976-E960-4E0C-AF08-C40BD7AE8F8E} = {89D3FC7A-9B10-4E6D-96C8-9B01460A0FCB}
 		{1ED8B5E6-22FA-479A-8395-BB1D3E2C31FA} = {AD900976-E960-4E0C-AF08-C40BD7AE8F8E}
+		{8A543899-A867-4261-A998-505340D63D56} = {BE4857EE-32BF-4CBE-B01E-0C849093DE23}
+		{02A681A2-9F2A-4579-B7AD-8093B16330D6} = {8A543899-A867-4261-A998-505340D63D56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {668FAC01-C3BC-4865-A94F-D36E731D899F}
