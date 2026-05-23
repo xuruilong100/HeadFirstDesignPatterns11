@@ -19,7 +19,7 @@ This project is a reimplementation of [Sliver 1.6](https://sourceforge.net/proje
 - [ ] Iterator
 - [x] Mediator
 - [x] Observer
-- [ ] Singleton
+- [x] Singleton
 - [ ] State
 - [ ] Strategy
 - [ ] Template
