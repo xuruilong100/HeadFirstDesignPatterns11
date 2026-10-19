@@ -114,6 +114,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GumballStateWinner", "State
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GumballStateWinner", "GumballStateWinner", "{7AA892FB-F1F7-467E-9052-E4FEDBB16968}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{4D0487DE-936C-407E-A1DE-35C8BC2B416E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuckSimulator", "Strategy\DuckSimulator\DuckSimulator.vcxproj", "{5834CBF1-56A6-4108-9EEF-26C76BB77682}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -274,6 +278,14 @@ Global
 		{460A7D15-B21A-425B-9047-75AC90B83ED2}.Release|x64.Build.0 = Release|x64
 		{460A7D15-B21A-425B-9047-75AC90B83ED2}.Release|x86.ActiveCfg = Release|Win32
 		{460A7D15-B21A-425B-9047-75AC90B83ED2}.Release|x86.Build.0 = Release|Win32
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Debug|x64.ActiveCfg = Debug|x64
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Debug|x64.Build.0 = Debug|x64
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Debug|x86.ActiveCfg = Debug|Win32
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Debug|x86.Build.0 = Debug|Win32
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Release|x64.ActiveCfg = Release|x64
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Release|x64.Build.0 = Release|x64
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Release|x86.ActiveCfg = Release|Win32
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -317,6 +329,7 @@ Global
 		{19613C14-8AFB-4AE5-A37B-63EE628E7DA2} = {9F58C1D1-169A-4DA0-8223-E0EA69BFA15C}
 		{460A7D15-B21A-425B-9047-75AC90B83ED2} = {7AA892FB-F1F7-467E-9052-E4FEDBB16968}
 		{7AA892FB-F1F7-467E-9052-E4FEDBB16968} = {9A25498F-1E02-4637-915A-BF93C7B5759B}
+		{5834CBF1-56A6-4108-9EEF-26C76BB77682} = {4D0487DE-936C-407E-A1DE-35C8BC2B416E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {668FAC01-C3BC-4865-A94F-D36E731D899F}
