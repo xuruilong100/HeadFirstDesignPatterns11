@@ -22,5 +22,5 @@ This project is a reimplementation of [Sliver 1.6](https://sourceforge.net/proje
 - [x] Singleton
 - [x] State
 - [x] Strategy
-- [ ] Template
+- [x] Template
 - [ ] Visitor
